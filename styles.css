@@ -12,6 +12,7 @@ body {
     text-align: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25%;
 }
 .bigcard header{
     color:#ffffff;
@@ -25,4 +26,45 @@ body {
 .bigcard p {
     padding: 15px;
     text-align: justify;
+}
+nav{
+    box-sizing: border-box;
+    margin: 6px;
+    padding: 5px;
+    border-radius: 10px;
+    background: #fa0;
+    color: blacks;
+}
+.desplegables{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 25px;
+    margin-bottom: 10%;
+}
+
+.desplegables details {
+    box-sizing: border-box;
+    margin: 2.5vh;
+    text-align: left;
+}
+table {
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 5psx;
+    table-layout: auto;
+}
+th, td {
+    padding: 8px;
+}
+summary{
+    font-size: 1.25em;
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #666;
+    padding:10px 10px 40px 10px;
+    text-align: center;
+    color: #ffffff;
 }
