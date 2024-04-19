@@ -35,6 +35,14 @@ nav{
     background: #fa0;
     color: blacks;
 }
+.nav__enlaces{
+    text-decoration: dashed;
+}
+.nav__enlaces:hover{
+    font-weight: bold;
+    color:#ffffff;
+}
+
 .desplegables{
     box-sizing: border-box;
     margin: auto;
@@ -42,24 +50,33 @@ nav{
     margin-bottom: 10%;
 }
 
-.desplegables details {
+.desplegables__preguntas {
     box-sizing: border-box;
     margin: 2.5vh;
     text-align: left;
 }
-table {
+.tablas{
     box-sizing: border-box;
     border: 1px solid #aaa;
     border-radius: 5px;
     max-width: 600px;
     padding: 5psx;
     table-layout: auto;
+    margin-bottom: 2em;
 }
+
 th, td {
     padding: 8px;
 }
+tr:nth-child(2n) {
+    background-color: #eee;
+}
 summary{
     font-size: 1.25em;
+}
+summary:hover{
+    font-size: 1.25em;
+    color:#fa0
 }
 footer{
     font-family: 'Courier New', Courier, monospace;

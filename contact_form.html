@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bigcard">
+        <header>Oriel Romero</header>
+        <nav>
+            <a href="index.html">Pagina Principal</a>
+            <a href="howto.html">¿Como se esta construyendo esto?</a>
+            <a href="contact_form.html">Contacto</a>
+        </nav>
+        <h1>Contacto</h1>
+        <p>Este es un formulario de contacto hipotetico, si le das enviar obviamente nose enviara nada pero es meramente para practicar</p>
+        <form>
+            <fieldset class="infoBasica">
+                <legend>Informacion Basica</legend>
+                Nombe completo <input class="infoBasica__dato" type="text" placeholder="Juan Gomez"><br>
+               DNI <input class="infoBasica__dato" stype="text" placeholder="25.135.222"><br>
+               Domicilio <input class="infoBasica__dato" type="text" placeholder="Av. SIempre Viva 444"><br>
+               Feha de nacimeinto<input  class="infoBasica__dato"type="date"><br>
+               Correo Electronico<input class="infoBasica__dato" type="email" placeholder="juangomez@yahoo.com">
+            </fieldset>
+            <fieldset class="infoProyecto">
+                <legend>Proyecto</legend>
+                <p>Detalle aqui la informacion sobre el encargo que desea realizar</p>
+                <label for="sector">Sector</label>
+                <select name="sector">
+                    <option value="area1">Empresa</option>
+                    <option value="area2">Consultora</option>
+                    <option value="area3">Consuidor Final</option>
+                </select><br>
+                    <label>Titulo</label>
+                    <input type="text" placeholder="Nombre del proyecto"><br>
+                    <label for="descripcion">Descripcion del proyecto</label>
+                    <textarea name="descripcion" rows="6"></textarea>
+                    <label for="presupuesto">Limite de gastos</label>
+                    <select name="presu" >
+                        <option value="cliente_a">Mas de U$D 2.000</option>
+                        <option value="cliente_b">Entre U$D 1.000 y 2.000</option>
+                        <option value="cliente_c">Entre U$D 650 y 1.000</option>
+                    </select>
+            </fieldset>
+            <button>Enviar</button>
+        </form>
+    </div>  
+</body>
+</html>
